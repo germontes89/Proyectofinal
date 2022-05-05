@@ -1,5 +1,6 @@
-@import "variables";
-@import "pages/blog";
-@import "pages/contacto";
-@import "pages/nosotros";
-@import "pages/productos";
+@import "base/reset";
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+

@@ -95,7 +95,6 @@ a {
 /*----MAIN----*/
 
 .main{
-
     height: auto;
     grid-area: main;
 }
@@ -137,11 +136,9 @@ a {
 } 
 
 .section__one{
-    
     height: auto;
     background-color: rgb(241, 245, 250);
     padding: 1%;
-    
 }
 
 .section__one h1{

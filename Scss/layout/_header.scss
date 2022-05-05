@@ -1,0 +1,43 @@
+/*---- HEADER/NAV-----*/
+.header {
+	padding: 20px;
+	background: rgb(241, 245, 250);
+    grid-area: header;
+    .logo {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.menu1 {
+	border-top: 1px solid #d1c086;
+	border-bottom: 1px solid #d1c086;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    a {
+        padding: 10px;
+        color: #000;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        width: 100%;
+        text-align: center;
+        transition: 0.2s ease all;
+        font-size: 16px;
+    }
+    &:hover {
+        background: #d1c086;
+        color: #fff;
+    }
+}

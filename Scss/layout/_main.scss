@@ -1,0 +1,84 @@
+/*----MAIN----*/
+.main{
+    height: auto;
+    grid-area: main;
+}
+
+.hero{
+    width: 100%;
+    height: 50vh;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/nosotross.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 20px;
+    }
+    a {
+        background-color:#d1c086;
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 30px;
+    } 
+}
+
+.section__one{
+    height: auto;
+    background-color: rgb(241, 245, 250);
+    padding: 1%;
+    h1{
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+        font-size: 30px;
+    }
+}
+
+.productosDestacados{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+    padding: 10px;
+    div{
+        border: solid 2px white;
+        padding: 10px;
+        border-radius: 15px;
+        text-align: center;
+        width: 200px;
+    }
+    img{
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        -webkit-transition: 1s linear;
+        transition: 1s linear;
+    }
+    &:hover{
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+    }
+    p{
+        text-align: justify;
+    }
+    a{
+        text-decoration: none;
+        border-radius:2px;
+        background-color: #d1c086;
+        color: white;
+        margin: 15px;
+    }
+}
