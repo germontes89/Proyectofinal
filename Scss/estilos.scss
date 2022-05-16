@@ -1,4 +1,9 @@
+/*----- BASE ------*/
+@import "base/variables";
 @import "base/reset";
+@import "base/mixin";
+
+/*----- LAYOUT -----*/
 @import "layout/header";
 @import "layout/main";
 @import "layout/footer";

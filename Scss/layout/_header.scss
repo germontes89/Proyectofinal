@@ -1,3 +1,27 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	background-image: repeating-linear-gradient(90deg, #fff, #fff 10px, #fbfbfb 20px, #fbfbfb 40px);
+}
+
+a {
+	text-decoration: none;
+}
+
+.grid-contenedor {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr auto 0.1fr;
+    gap: 10px 0px;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+
 /*---- HEADER/NAV-----*/
 .header {
 	padding: 20px;
@@ -35,9 +59,10 @@
         text-align: center;
         transition: 0.2s ease all;
         font-size: 16px;
+            &:hover {
+            background: $colorUno;
+            color: #fff;
+            }
     }
-    &:hover {
-        background: #d1c086;
-        color: #fff;
-    }
+    
 }
